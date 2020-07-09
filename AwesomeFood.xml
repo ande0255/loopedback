@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AwesomeFood>
+    <IceCream Id="100">
+        <Flavor1>Strawberry</Flavor1>
+        <Flavor2>Chocolate</Flavor2>
+        <Flavor3>Vanilla</Flavor3>
+    </IceCream>
+    <Pizza Id="200">
+        <Toppings1>Everything!</Toppings1>
+        <Toppings2>More Everything!</Toppings2>
+        </Pizza>
+    <Fries Id="300">
+        <Regular1>SaltOnly</Regular1>
+        <Regular2>ChiliFries!</Regular2>
+        </Fries>
+</AwesomeFood>

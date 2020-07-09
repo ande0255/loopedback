@@ -1,0 +1,144 @@
+R1#sh run | format
+
+<?xml version="1.0" encoding="UTF-8"?><Device-Configuration xmlns="urn:cisco:xml-pi">
+<version><Param>15.6</Param></version>
+<service><timestamps><debug><datetime><msec/></datetime></debug></timestamps></service>
+<service><timestamps><log><datetime><msec/></datetime></log></timestamps></service>
+<service operation="delete" ><password-encryption/></service>
+<hostname><SystemNetworkName>R1</SystemNetworkName></hostname>
+<boot-start-marker></boot-start-marker>
+<boot-end-marker></boot-end-marker>
+<aaa operation="delete" ><new-model/></aaa>
+<ethernet><lmi><ce/></lmi></ethernet>
+<mmi><polling-interval><MmiPollingIntervalSecond>60</MmiPollingIntervalSecond></polling-interval></mmi>
+<mmi operation="delete" ><auto-configure/></mmi>
+<mmi operation="delete" ><pvc/></mmi>
+<mmi><snmp-timeout><SNMPTimeoutValueSecond>180</SNMPTimeoutValueSecond></snmp-timeout></mmi>
+<ip operation="delete" ><icmp><rate-limit><unreachable/></rate-limit></icmp></ip>
+<ip operation="delete" ><domain><lookup/></domain></ip>
+<ip><domain><name><DefaultDomainName>loopedback.com</DefaultDomainName></name></domain></ip>
+<ip><cef/></ip>
+<ipv6 operation="delete" ><cef/></ipv6>
+<multilink><bundle-name><authenticated/></bundle-name></multilink>
+<file><prompt><quiet/></prompt></file>
+<username><UserName>looped</UserName><privilege><UserPrivilegeLevel>15</UserPrivilegeLevel><password><_0><UnencryptedUserPassword>back</UnencryptedUserPassword></_0></password></privilege></username>
+<redundancy>
+<ConfigRed-Configuration>
+</ConfigRed-Configuration>
+</redundancy>
+<cdp operation="delete" ><log><mismatch><duplex/></mismatch></log></cdp>
+<ip><tcp/></ip>
+<interface><Param>GigabitEthernet0/0</Param>
+<ConfigIf-Configuration>
+<ip><address><IPAddress>192.168.238.111</IPAddress><IPSubnetMask>255.255.255.0</IPSubnetMask></address></ip>
+<duplex><auto/></duplex>
+<speed><auto/></speed>
+<media-type><rj45/></media-type>
+</ConfigIf-Configuration>
+</interface>
+<interface><Param>GigabitEthernet0/1</Param>
+<ConfigIf-Configuration>
+<ip><address><IPAddress>123.123.123.1</IPAddress><IPSubnetMask>255.255.255.0</IPSubnetMask></address></ip>
+<ip><access-group><IPACLStandardExtended>101</IPACLStandardExtended><in/></access-group></ip>
+<duplex><auto/></duplex>
+<speed><auto/></speed>
+<media-type><rj45/></media-type>
+</ConfigIf-Configuration>
+</interface>
+<interface><Param>GigabitEthernet0/2</Param>
+<ConfigIf-Configuration>
+<ip operation="delete" ><address/></ip>
+<shutdown></shutdown>
+<duplex><auto/></duplex>
+<speed><auto/></speed>
+<media-type><rj45/></media-type>
+</ConfigIf-Configuration>
+</interface>
+<interface><Param>GigabitEthernet0/3</Param>
+<ConfigIf-Configuration>
+<ip operation="delete" ><address/></ip>
+<shutdown></shutdown>
+<duplex><auto/></duplex>
+<speed><auto/></speed>
+<media-type><rj45/></media-type>
+</ConfigIf-Configuration>
+</interface>
+<router><ospf>
+<ConfigRouter-Configuration>
+<network><NetworkNumber>123.123.123.0</NetworkNumber><OSPFWildCardBits>0.0.0.255</OSPFWildCardBits><area><OSPFAreaIDAsDecimalValue>0</OSPFAreaIDAsDecimalValue></area></network>
+<network><NetworkNumber>192.168.238.0</NetworkNumber><OSPFWildCardBits>0.0.0.255</OSPFWildCardBits><area><OSPFAreaIDAsDecimalValue>11</OSPFAreaIDAsDecimalValue></area></network>
+</ConfigRouter-Configuration>
+</ospf>
+</router>
+<ip><forward-protocol><nd/></forward-protocol></ip>
+<ip operation="delete" ><http><server/></http></ip>
+<ip operation="delete" ><http><secure-server/></http></ip>
+<ip><ssh/></ip>
+<ip><scp><server><enable/></server></scp></ip>
+<access-list><IPExtendedACL>101</IPExtendedACL><deny><ip><host><SourceAddress>172.16.30.33</SourceAddress><host><DestinationAddress>101.101.101.101</DestinationAddress></host></host></ip></deny></access-list>
+<access-list><IPExtendedACL>101</IPExtendedACL><deny><ip><host><SourceAddress>172.16.30.33</SourceAddress><host><DestinationAddress>202.202.202.202</DestinationAddress></host></host></ip></deny></access-list>
+<access-list><IPExtendedACL>101</IPExtendedACL><permit><ip><any><any/></any></ip></permit></access-list>
+<control-plane>
+<ConfigCp-Configuration>
+</ConfigCp-Configuration>
+</control-plane>
+<banner><exec><CBannerTextCDelimitingCharacter>^C</CBannerTextCDelimitingCharacter></exec></banner>
+<X-Interface>**************************************************************************</X-Interface>
+<X-Interface>* IOSv is strictly limited to use for evaluation, demonstration and IOS  *</X-Interface>
+<X-Interface>* education. IOSv is provided as-is and is not supported by Cisco&apos;s      *</X-Interface>
+<X-Interface>* Technical Advisory Center. Any use or disclosure, in whole or in part, *</X-Interface>
+<X-Interface>* of the IOSv Software or Documentation to any third party for any       *</X-Interface>
+<X-Interface>* purposes is expressly prohibited except as otherwise authorized by     *</X-Interface>
+<X-Interface>* Cisco in writing.                                                      *</X-Interface>
+<X-Interface>**************************************************************************^C</X-Interface>
+<banner><incoming><CBannerTextCDelimitingCharacter>^C</CBannerTextCDelimitingCharacter></incoming></banner>
+<X-Interface>**************************************************************************</X-Interface>
+<X-Interface>* IOSv is strictly limited to use for evaluation, demonstration and IOS  *</X-Interface>
+<X-Interface>* education. IOSv is provided as-is and is not supported by Cisco&apos;s      *</X-Interface>
+<X-Interface>* Technical Advisory Center. Any use or disclosure, in whole or in part, *</X-Interface>
+<X-Interface>* of the IOSv Software or Documentation to any third party for any       *</X-Interface>
+<X-Interface>* purposes is expressly prohibited except as otherwise authorized by     *</X-Interface>
+<X-Interface>* Cisco in writing.                                                      *</X-Interface>
+<X-Interface>**************************************************************************^C</X-Interface>
+<banner><login><CBannerTextCDelimitingCharacter>^C</CBannerTextCDelimitingCharacter></login></banner>
+<X-Interface>**************************************************************************</X-Interface>
+<X-Interface>* IOSv is strictly limited to use for evaluation, demonstration and IOS  *</X-Interface>
+<X-Interface>* education. IOSv is provided as-is and is not supported by Cisco&apos;s      *</X-Interface>
+<X-Interface>* Technical Advisory Center. Any use or disclosure, in whole or in part, *</X-Interface>
+<X-Interface>* of the IOSv Software or Documentation to any third party for any       *</X-Interface>
+<X-Interface>* purposes is expressly prohibited except as otherwise authorized by     *</X-Interface>
+<X-Interface>* Cisco in writing.                                                      *</X-Interface>
+<X-Interface>**************************************************************************^C</X-Interface>
+<line><LineNumber>con 0</LineNumber>
+<ConfigLine-Configuration>
+<X-Interface> privilege level 15</X-Interface>
+Translating "synchronous"
+
+<X-Interface> logging synchronous</X-Interface>
+</ConfigLine-Configuration>
+</line>
+<line><LineNumber>aux 0</LineNumber>
+<ConfigLine-Configuration>
+<X-Interface> exec-timeout 0 0</X-Interface>
+<X-Interface> privilege level 15</X-Interface>
+<X-Interface> logging synchronous</X-Interface>
+</ConfigLine-Configuration>
+</line>
+<line><LineNumber>vty 0 4</LineNumber>
+<ConfigLine-Configuration>
+<X-Interface> logging synchronous</X-Interface>
+<X-Interface> login local</X-Interface>
+<X-Interface> transport input all</X-Interface>
+</ConfigLine-Configuration>
+</line>
+<line><LineNumber>vty 5 15</LineNumber>
+<ConfigLine-Configuration>
+<X-Interface> logging synchronous</X-Interface>
+<X-Interface> login local</X-Interface>
+<X-Interface> transport input all</X-Interface>
+</ConfigLine-Configuration>
+</line>
+<scheduler operation="delete" ><allocate/></scheduler>
+<end></end>
+</Device-Configuration>
+R1#
