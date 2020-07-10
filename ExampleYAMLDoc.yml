@@ -1,17 +1,17 @@
 ---
 ThisIsSomeExample:
 - AnInteger: 1
-  SomeValue: Something
-  SomeOtherValue: SomethingElse
+  SomeValue: Something1
+  SomeOtherValue: SomethingElse1
   FloatingInteger: 1.23
-  YetAnotherValue: SomethingElseAgain!
+  YetAnotherValue: SomethingElseAgain1!
 - AnInteger: 2
-  SomeValue: Something
-  SomeOtherValue: SomethingElse
+  SomeValue: Something2
+  SomeOtherValue: SomethingElse2
   FloatingInteger: 2.23
-  YetAnotherValue: SomethingElseAgain!
+  YetAnotherValue: SomethingElseAgain2!
 - AnInteger: 3
-  SomeValue: Something
-  SomeOtherValue: SomethingElse
+  SomeValue: Something3
+  SomeOtherValue: SomethingElse3
   FloatingInteger: 3.23
-  YetAnotherValue: SomethingElseAgain!
+  YetAnotherValue: SomethingElseAgain3!
