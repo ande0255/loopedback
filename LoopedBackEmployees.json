@@ -1,36 +1,20 @@
-{"LoopedBack_Employees"      :
+{"LoopedBack_Employees":
     [ 
     {
-    "EmployeeNumber"        : 1,
-    "FirstName" : "Dave",
-
-
-
-    "LastName" : "Anderson",
-    "Email" : "Dave.Anderson@Loopedback.com",
-    "FIRED!!!": false
+        "EmployeeNumber": 1,
+        "Name": {"First": "Dave", "Last": "Anderson"},
+        "Email": "Dave.Anderson@Loopedback.com",
+        "FIRED!!!": false
     },
     {
         "EmployeeNumber" : 2,
-        "FirstName": "Loopy",
-        "LastName"       : "Doopy",
-
-
-
-
-
-
-
-        "Email"    : "Loopy.Doopy@Loopedback.com",
+        "Name": {"First": "Loopy", "Last": "Doopy"},
+        "Email": "Loopy.Doopy@Loopedback.com",
         "FIRED!!!": true
     },
     {
-
-
-
         "EmployeeNumber" : 3,
-        "FirstName"    : "Some",
-        "LastName"       : "Body",
+        "Name": {"First": "Some", "Last": "Body"},
         "Email" : "Some.Body@Loopedback.com",
         "FIRED!!!" : true
     }
