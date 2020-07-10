@@ -4,6 +4,7 @@
         <Flavor1>Strawberry</Flavor1>
         <Flavor2>Chocolate</Flavor2>
         <Flavor3>Vanilla</Flavor3>
+        <Falvor4>SnozzBerry</Falvor4>
     </IceCream>
     <Pizza Id="200">
         <Toppings1>Everything!</Toppings1>
