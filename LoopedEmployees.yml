@@ -1,0 +1,20 @@
+---
+LoopedBackEmployees:
+- Employee: 1
+  Department: NetworkGeeks
+  FirstName: Dave
+  LastName: Anderson
+  EmployeeID: 802.11
+  Email: dave.anderson@loopedback.com
+- Employee: 2
+  Department: NetworkGeeks
+  FirstName: Loopy
+  LastName: Doopy
+  EmployeeID: 802.13
+  Email: dave.anderson@loopedback.com
+- Employee: 7
+  Department: NetworkGeeks
+  FirstName: Cheeky
+  LastName: Geeky
+  EmployeeID: 123.56
+  Email: dave.anderson@loopedback.com
