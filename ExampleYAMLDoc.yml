@@ -1,0 +1,17 @@
+---
+ThisIsSomeExample:
+- AnInteger: 1
+  SomeValue: Something
+  SomeOtherValue: SomethingElse
+  FloatingInteger: 1.23
+  YetAnotherValue: SomethingElseAgain!
+- AnInteger: 2
+  SomeValue: Something
+  SomeOtherValue: SomethingElse
+  FloatingInteger: 2.23
+  YetAnotherValue: SomethingElseAgain!
+- AnInteger: 3
+  SomeValue: Something
+  SomeOtherValue: SomethingElse
+  FloatingInteger: 3.23
+  YetAnotherValue: SomethingElseAgain!
