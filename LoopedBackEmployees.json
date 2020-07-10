@@ -1,9 +1,10 @@
-[ 
+{"LoopedBack_Employees":
+    [ 
     {
-        "EmployeeNumber": "1",
-        "FirstName": "Dave",
-        "LastName": "Anderson",
-        "Email": "Dave.Anderson@Loopedback.com"
+    "EmployeeNumber": "1",
+    "FirstName": "Dave",
+    "LastName": "Anderson",
+    "Email": "Dave.Anderson@Loopedback.com"
     },
     {
         "EmployeeNumber": "2",
@@ -17,4 +18,5 @@
         "LastName": "Body",
         "Email": "Some.Body@Loopedback.com"
     }
-]
+    ]
+}
