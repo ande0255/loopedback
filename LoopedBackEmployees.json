@@ -2,10 +2,7 @@
     [ 
         {
             "EmployeeNumber" : 1,
-
-            "Name"             : {"First": "Dave", "Last": "Anderson"},
-
-
+            "Name": {"First": "Dave", "Last": "Anderson"},
             "Email": "Dave.Anderson@Loopedback.com",
             "FIRED!!!": false
         },
@@ -17,12 +14,8 @@
         },
         {
             "EmployeeNumber" : 3,
-
-
             "Name": {"First": "Some", "Last": "Body"},
             "Email" : "Some.Body@Loopedback.com",
-
-
             "FIRED!!!" : true
         }
     ]
