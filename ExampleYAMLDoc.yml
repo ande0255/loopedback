@@ -20,8 +20,8 @@ ThisIsSomeExample:
   SomeOtherValue: SomethingElse3
   FloatingInteger: 3.23
   YetAnotherValue: SomethingElseAgain3!
-...
----
+... # These 3 dots notate the end of the yaml script
+--- # This is the beginning of a new yaml script within the same script!
 somevalue1: Idontknow1
 somevalue2: Idontknow2
 somevlaue3: Istilldontknow3
