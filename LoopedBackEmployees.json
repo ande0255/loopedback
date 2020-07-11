@@ -1,7 +1,7 @@
 {"LoopedBack_Employees":
     [ 
         {
-            "EmployeeNumber"     : 1,
+            "EmployeeNumber" : 1,
 
             "Name"             : {"First": "Dave", "Last": "Anderson"},
 

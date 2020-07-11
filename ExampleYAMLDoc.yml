@@ -1,11 +1,8 @@
 ---  # These 3 hyphens notate a new yaml 
 ThisIsSomeExample:
-
-
-
 - AnInteger: 1
   SomeValue : Something1
-   SomeOtherValue : SomethingElse1
+  SomeOtherValue : SomethingElse1
   FloatingInteger     : 1.23
   BooleanValue     : fale
 - AnInteger    : 2
@@ -19,12 +16,11 @@ ThisIsSomeExample:
   FloatingInteger: 3.23
   BooleanValue: true
 - AnInteger: 4
-
   SomeValue: Something4
   SomeOtherValue: SomethingElse3
   FloatingInteger                  : 3.23
   BooleanValue: 'true'  # Boolean value turned into a string value again by quotes!!!
-... # These 3 dots notate the end of the yaml script
+... # Closes the YAML Data File and below a new one is begun again in the same overall file here!
 --- # This is the beginning of a new yaml script within the same script!
 somevalue1: Idontknow1
 somevalue2: Idontknow2
