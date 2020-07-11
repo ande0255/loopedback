@@ -1,3 +1,7 @@
 ---
 QuotedStringDemo: "Hello World!\n What a Beatuiful Day!"
 ...
+RegularString: Hello "Hello World!\n 
+              
+               What a Beatuiful Day!"
+SomeInteger: 5 # and the script continues on
