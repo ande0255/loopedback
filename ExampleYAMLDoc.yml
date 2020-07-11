@@ -1,4 +1,4 @@
----
+---  # These 3 hyphens notate a new yaml 
 ThisIsSomeExample:
 - AnInteger: 1
   SomeValue: Something1
@@ -15,3 +15,13 @@ ThisIsSomeExample:
   SomeOtherValue: SomethingElse3
   FloatingInteger: 3.23
   YetAnotherValue: SomethingElseAgain3!
+- AnInteger: "4" # A STRING INSTEAD OF AN INTEGER!!!
+  SomeValue: Something3
+  SomeOtherValue: SomethingElse3
+  FloatingInteger: 3.23
+  YetAnotherValue: SomethingElseAgain3!
+...
+---
+somevalue1: Idontknow1
+somevalue2: Idontknow2
+somevlaue3: Istilldontknow3
