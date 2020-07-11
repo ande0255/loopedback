@@ -1,11 +1,14 @@
 ---  # These 3 hyphens notate a new yaml 
 ThisIsSomeExample:
+
+
+
 - AnInteger: 1
-  SomeValue: Something1
-  SomeOtherValue: SomethingElse1
-  FloatingInteger: 1.23
-  BooleanValue: fale
-- AnInteger: 2
+  SomeValue : Something1
+   SomeOtherValue : SomethingElse1
+  FloatingInteger     : 1.23
+  BooleanValue     : fale
+- AnInteger    : 2
   SomeValue: Something2
   SomeOtherValue: SomethingElse2
   FloatingInteger: 2.23
@@ -15,10 +18,11 @@ ThisIsSomeExample:
   SomeOtherValue: SomethingElse3
   FloatingInteger: 3.23
   BooleanValue: true
-- AnInteger: "4" # Another integer turned string value only using double quotes this time!
+- AnInteger: 4
+
   SomeValue: Something4
   SomeOtherValue: SomethingElse3
-  FloatingInteger: 3.23
+  FloatingInteger                  : 3.23
   BooleanValue: 'true'  # Boolean value turned into a string value again by quotes!!!
 ... # These 3 dots notate the end of the yaml script
 --- # This is the beginning of a new yaml script within the same script!
