@@ -4,22 +4,22 @@ ThisIsSomeExample:
   SomeValue: Something1
   SomeOtherValue: SomethingElse1
   FloatingInteger: 1.23
-  YetAnotherValue: SomethingElseAgain1!
+  BooleanValue: fale
 - AnInteger: 2
   SomeValue: Something2
   SomeOtherValue: SomethingElse2
   FloatingInteger: 2.23
-  YetAnotherValue: SomethingElseAgain2!
-- AnInteger: 3
+  BooleanValue: true
+- AnInteger: '3' # A string value because its in single quotes instead of an integer!
   SomeValue: Something3
   SomeOtherValue: SomethingElse3
   FloatingInteger: 3.23
-  YetAnotherValue: SomethingElseAgain3!
-- AnInteger: "4" # A STRING INSTEAD OF AN INTEGER!!!
-  SomeValue: Something3
+  BooleanValue: true
+- AnInteger: "4" # Another integer turned string value only using double quotes this time!
+  SomeValue: Something4
   SomeOtherValue: SomethingElse3
   FloatingInteger: 3.23
-  YetAnotherValue: SomethingElseAgain3!
+  BooleanValue: 'true'  # Boolean value turned into a string value again by quotes!!!
 ... # These 3 dots notate the end of the yaml script
 --- # This is the beginning of a new yaml script within the same script!
 somevalue1: Idontknow1
