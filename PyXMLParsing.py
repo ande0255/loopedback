@@ -1,10 +1,10 @@
 import xml.etree.ElementTree as ET
 
-stream = open('AwesomeFood.xml', 'r') # This opens the XML File 'AwesomeFood' I created for parsing
+stream = open('AwesomeFood.xml', 'r')
 
-xml = ET.parse(stream) # This tell the script to Parse data into an Element Tree Object
+xml = ET.parse(stream)
 
-root = xml.getroot() # This gets the "Root" Element of each Element Tree (The Parent!)
+root = xml.getroot()
 
 for e in root:
     print(ET.tostring(e))
