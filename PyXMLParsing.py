@@ -1,12 +1,11 @@
 import xml.etree.ElementTree as ET
 
-stream = open('AwesomeFood.xml', 'r')
+tree = ET.parse('AwesomeFood.xml')
 
-xml = ET.parse(stream)
+root = tree.getroot()
 
-root = xml.getroot()
-
-for e in root:
-    print(ET.tostring(e))
-    print(**)
-    print(e.get(*Id*))
+for child in root:
+    print(child.tag)
+    print(child.attrib)
+    for subelem in child:
+        print(subelem.text)
