@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-stream = open('AwesomeFood.xk', 'r') # This opens the XML File 'AwesomeFood' I created for parsing
+stream = open('AwesomeFood.xml', 'r') # This opens the XML File 'AwesomeFood' I created for parsing
 
 xml = ET.parse(stream) # This tell the script to Parse data into an Element Tree Object
 
