@@ -5,7 +5,9 @@ tree = ET.parse('AwesomeFood.xml')
 root = tree.getroot()
 
 for child in root:
+    print(root.text)
     print(child.tag)
-    print(child.attrib)
     for subelem in child:
         print(subelem.text)
+    print()
+    
