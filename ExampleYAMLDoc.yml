@@ -5,7 +5,7 @@ ThisIsSomeExample:
   SomeOtherValue : SomethingElse1
   FloatingInteger     : 1.23
   BooleanValue     : fale
-- AnInteger    : 2
+- AnInteger : 2
   SomeValue: Something2
   SomeOtherValue: SomethingElse2
   FloatingInteger: 2.23
