@@ -1,1 +1,4 @@
 A GIT example text file for demo purposes!
+Test line
+Another test line
+Yet another line
