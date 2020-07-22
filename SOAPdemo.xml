@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope
+xmlns:soap="https://loopedback.com/soap/envelope/"
+soap:encodingStyle=:"https://loopedback.com/soap-encoding">
+    <soapHeader>SomeAuthorizationThing</soapHeader>
+    <soap:Body>
+        <Message>"Don't drop the SOAP!"</Message>
+            <soap:Fault>
+                <faultCode>soap:Server</faultCode>
+                <faultString>Query request too large.</faultString>
+            </soapFault>
+    </soap:Body>
