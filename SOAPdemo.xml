@@ -11,3 +11,4 @@ soap:encodingStyle=:"https://loopedback.com/soap-encoding">
                 <faultString>Query request too large.</faultString>
             </soapFault>
     </soap:Body>
+</soap:Envelope>
