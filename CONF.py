@@ -2,6 +2,8 @@ from device_info import ios_xe1
 from ncclient import manager
 import xmltodict
 
+netconf_filter = open("filter-ietf-interface.xml").read()
+
 if __name__ == '__man__':
     with manager.connect(host=ios_xe1["address], port=ios_xe1"],
                         username=ios_xe1["username"],
