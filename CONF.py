@@ -5,7 +5,7 @@ import xmltodict
 netconf_filter = open("filter-ietf-interface.xml").read()
 
 if __name__ == '__man__':
-    with manager.connect(host=ios_xe1["address], port=ios_xe1"],
+    with manager.connect(host=ios_xe1["address"], port="ios_xe1"],
                         username=ios_xe1["username"],
                         password=ios_xe1["password"],
                         hostkey_verify=False) as m:
@@ -30,3 +30,8 @@ print(" Type: {}".format(intf_config["type"]["text"]))
 print(" Mac Address {}".format(intf_info["phy-address"]))
 print(" Mac Input: {}".format(intf_info["statistics"]["in-unicast-packets"]))
 print(" Mac Output: {}".format(intf_info["statistics"]["out-unicast-packets"]))
+
+from device_info import ios_xe1
+from ncclient import manager
+
+netconf_template
