@@ -11,11 +11,11 @@
         },
         {"Work History":
             [
-            {
-                "Employer Name": "Marco Technologies LLC",
-                "Employment Type": "Full-Time",
-                "Job Role": "Network Escalation Engineer",
-                "Employment Dates": "July 2020 - Present",
+                {
+                    "Employer Name": "Marco Technologies LLC",
+                    "Employment Type": "Full-Time",
+                    "Job Role": "Network Escalation Engineer",
+                    "Employment Dates": "July 2020 - Present",
                 "Job Duties":
                     [
                         {
@@ -39,3 +39,32 @@
                             }
                         ]
                     },
+                    {
+                        "Employer Name": "Marco Technologies LLC",
+                        "Employment Type": "Full-Time",
+                        "Job Role": "Network Escalation Engineer",
+                        "Employment Dates": "July 2020 - Present",
+                        "Job Duties":
+                            [
+                                {
+                                "Job Duty1": "Something",
+                                "Job Duty2": "Something",
+                                "Job Duty3": "Something"
+                                }
+                            ]
+                        },
+                        {
+                            "Employer Name": "Marco Technologies LLC",
+                            "Employment Type": "Full-Time",
+                            "Job Role": "Network Escalation Engineer",
+                            "Employment Dates": "July 2020 - Present",
+                            "Job Duties":
+                                [
+                                    {
+                                    "Job Duty1": "Something",
+                                    "Job Duty2": "Something",
+                                    "Job Duty3": "Something"
+                                    }
+                                ]
+                        }
+                        
