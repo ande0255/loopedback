@@ -16,7 +16,7 @@
                     "Employment Type": "Full-Time",
                     "Job Role": "Network Escalation Engineer",
                     "Employment Dates": "July 2020 - Present",
-                "Job Duties":
+                    "Job Duties":
                     [
                         {
                         "Job Duty1": "Something",
@@ -31,40 +31,76 @@
                     "Job Role": "Network Escalation Engineer",
                     "Employment Dates": "July 2020 - Present",
                     "Job Duties":
-                        [
-                            {
-                            "Job Duty1": "Something",
-                            "Job Duty2": "Something",
-                            "Job Duty3": "Something"
-                            }
-                        ]
-                    },
-                    {
-                        "Employer Name": "Marco Technologies LLC",
-                        "Employment Type": "Full-Time",
-                        "Job Role": "Network Escalation Engineer",
-                        "Employment Dates": "July 2020 - Present",
-                        "Job Duties":
-                            [
-                                {
-                                "Job Duty1": "Something",
-                                "Job Duty2": "Something",
-                                "Job Duty3": "Something"
-                                }
-                            ]
-                        },
+                    [
                         {
-                            "Employer Name": "Marco Technologies LLC",
-                            "Employment Type": "Full-Time",
-                            "Job Role": "Network Escalation Engineer",
-                            "Employment Dates": "July 2020 - Present",
-                            "Job Duties":
-                                [
-                                    {
-                                    "Job Duty1": "Something",
-                                    "Job Duty2": "Something",
-                                    "Job Duty3": "Something"
-                                    }
-                                ]
+                        "Job Duty1": "Something",
+                        "Job Duty2": "Something",
+                        "Job Duty3": "Something"
                         }
-                        
+                    ]
+                },
+                {
+                    "Employer Name": "Marco Technologies LLC",
+                    "Employment Type": "Full-Time",
+                    "Job Role": "Network Escalation Engineer",
+                    "Employment Dates": "July 2020 - Present",
+                    "Job Duties":
+                    [
+                        {
+                        "Job Duty1": "Something",
+                        "Job Duty2": "Something",
+                        "Job Duty3": "Something"
+                        }
+                    ]
+                },
+                {
+                    "Employer Name": "Marco Technologies LLC",
+                    "Employment Type": "Full-Time",
+                    "Job Role": "Network Escalation Engineer",
+                    "Employment Dates": "July 2020 - Present",
+                    "Job Duties":
+                    [
+                        {
+                        "Job Duty1": "Something",
+                        "Job Duty2": "Something",
+                        "Job Duty3": "Something"
+                        }
+                    ]
+                }
+            ]
+        },
+        {"Education / Certifications":
+            [
+                {
+                    "College Name": "Century College - White Bear Lake, MN",
+                    "Degree Level Earned": "AAS in ITT - Advanced Networking Program",
+                    "Accomplishments": "Graduated with Honors - GPA 3.74 - Honor Society Alumni, Peer Tutor / Peer Mentor"
+                },
+                {"Professional Certifications":
+                    [
+                        {
+                            "CCNP Enterprise": "Current - Oct 2022",
+                            "CCNA Security and Voice": "Retired",
+                            "CMNA (Meraki)": "Current",
+                            "Cisco DevNet Associate": "In Progress"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+
+
+
+                    
+
+
+
+            
+            
+
+
+
+                
+                
+          
