@@ -1,0 +1,41 @@
+{"My_Resume":
+    [
+        {"Contact Information":
+            {
+            "Name": "David Anderson",
+            "Contact Email": "ande0255@gmail.com",
+            "Contact Number": "651.587.5091",
+            "LinkedIn Site": "https://www.linkedin.com/in/david-anderson-1206a027/",
+            "IT Blog Site": "https://loopedback.com"
+            }
+        },
+        {"Work History":
+            [
+            {
+                "Employer Name": "Marco Technologies LLC",
+                "Employment Type": "Full-Time",
+                "Job Role": "Network Escalation Engineer",
+                "Employment Dates": "July 2020 - Present",
+                "Job Duties":
+                    [
+                        {
+                        "Job Duty1": "Something",
+                        "Job Duty2": "Something",
+                        "Job Duty3": "Something"
+                        }
+                    ]
+                },
+                {
+                    "Employer Name": "Marco Technologies LLC",
+                    "Employment Type": "Full-Time",
+                    "Job Role": "Network Escalation Engineer",
+                    "Employment Dates": "July 2020 - Present",
+                    "Job Duties":
+                        [
+                            {
+                            "Job Duty1": "Something",
+                            "Job Duty2": "Something",
+                            "Job Duty3": "Something"
+                            }
+                        ]
+                    },
