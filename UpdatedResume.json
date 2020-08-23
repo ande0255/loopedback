@@ -9,6 +9,8 @@
             "IT Blog Site": "https://loopedback.com"
             }
         },
+        {"About me": "In addition to having a very strong skillset from IT experience from different job roles, I enjoy learning new IT Technologies and blogging about them in depth on my website / blog for my own personal reference, in addition to a free resource of information for the wider IT community. I have a natural curiosity of newer Technologies, am currently pursuing the Cisco DevNet Associate Certification, while simultaneously learning Python Scripting in depth, and also currently working within AWS Cloud to work with and learn how the services integrate. I am a life long student of everything IT!"
+        },
         {"Work History":
             [
                 {
@@ -55,15 +57,31 @@
                 },
                 {
                     "Employer Name": "Marco Technologies LLC",
+                    "Job Title": "Cisco Unified Communications Systems Engineer",
                     "Employment Type": "Full-Time",
-                    "Job Role": "Network Escalation Engineer",
-                    "Employment Dates": "July 2020 - Present",
+                    "Employment Dates": "November 2013 - December 2016",
                     "Job Duties":
                     [
                         {
-                        "Job Duty1": "Something",
-                        "Job Duty2": "Something",
-                        "Job Duty3": "Something"
+                        "Job Duty 1": "Troubleshooting call routing / voicemail routing / Phones not receiving phone load from TFTP / Incorrect soft or hard buttons / incorrect time issues via CUCM GUI Interface or CUE / CME CLI interface",
+                        "Job Duty 2": "Configure new call flows / end points for new user setups, work with Cisco TAC extensively on call tracing to resolve issues, also took time to review Cisco Unity Server setups to prevent Toll Fraud",
+                        "Job Duty 3": "Troubleshooting vCenter and ESXi / iLo / CIMC platforms for Cisco UCM Server Outages and Upgrades",
+                        "Job Duty 4": "Performed upgrades on both Data Network devices as well as Cisco Voice Server Upgrades and learned how to utilize Cisco Field Notes documentation to perform upgrades smoothly and correctly",
+                        "Job Duty 5": "Worked overflow Data Network trouble tickets involving customer LAN and WAN issues including Switching / Routing / Wireless / RADIUS Server configuration setup / IPSec and SSL Client VPN / Site to Site VPN Tunnel issues and performing remote ISP Cutovers and Firmware upgrades to network devices"
+                        }
+                    ]
+                },
+                {
+                    "Employer Name": "Assurant",
+                    "Job Title": "Helpdesk Analyst",
+                    "Employment Type": "Full-Time",
+                    "Employment Dates": "October 2011 - November 2013",
+                    "Job Duties":
+                    [
+                        {
+                        "Job Duty1": "Password Resets, troubleshooting Assurant proprietary software / PC Issues / Client VPN Issues",
+                        "Job Duty2": "Updating the Knowledge-Base 'Talisma' with Troubleshooting articles used for different problem scenarios, cross reference articles to create a troubleshooting flow for all Helpdesk Workers",
+                        "Job Duty3": "Promoted to Helpdesk Lead role, training in and mentoring new employees in how to use the Talisma KB for troubleshooting and mentoring / coaching new employees as needed for success"
                         }
                     ]
                 }
@@ -88,8 +106,6 @@
                     ]
                 }
             ]
-        },
-        {"About me": "In addition to having a very strong skillset from IT experience from different job roles, I enjoy learning new IT Technologies and blogging about them in depth on my website / blog for my own personal reference, in addition to a free resource of information for the wider IT community. I have a natural curiosity of newer Technologies, am currently pursuing the Cisco DevNet Associate Certification, while simultaneously learning Python Scripting in depth, and also currently working within AWS Cloud to work with and learn how the services integrate. I am a life long student of everything IT!"
         },
         {"Professional References": "Available upon request"
         }
