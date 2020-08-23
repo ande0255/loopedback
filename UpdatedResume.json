@@ -13,43 +13,43 @@
             [
                 {
                     "Employer Name": "Marco Technologies LLC",
+                    "Job Title": "Network Escalation Engineer",
                     "Employment Type": "Full-Time",
-                    "Job Role": "Network Escalation Engineer",
                     "Employment Dates": "July 2020 - Present",
                     "Job Duties":
                     [
                         {
-                        "Job Duty1": "Something",
-                        "Job Duty2": "Something",
-                        "Job Duty3": "Something"
+                        "Job Duty 1": "Troubleshooting VPN / Client VPN / Wireless / Switching / Routing / Firewall / NAT / WAN technologies across Cisco / Aruba / HP / Sonicwall / Fortigate / Watchguard Vendor platforms working with all IT resources in the company to drive tickets to resolution unless on premise service is required",
+                        "Job Duty 2": "Assist with planning and Deployment of Internal Security Projects such as Meraki SAML Integration, Customer Projects such as Network Device Standardization / Security Hardening / Deploying SNMP",
+                        "Job Duty 3": "Collaborate with all teams (Cloud / Voice / Field Service / NOC / Helpdesk) to reviews issues to get a second set of eyes on the cause / solution and verify that the network is not introducing any issues"
                         }
                     ]
                 },
                 {
                     "Employer Name": "Marco Technologies LLC",
+                    "Job Title": "NOC Network Engineer",
                     "Employment Type": "Full-Time",
-                    "Job Role": "Network Escalation Engineer",
-                    "Employment Dates": "July 2020 - Present",
+                    "Employment Dates": "April 2019 - July 2020",
                     "Job Duties":
                     [
                         {
-                        "Job Duty1": "Something",
-                        "Job Duty2": "Something",
-                        "Job Duty3": "Something"
+                        "Job Duty 1": "Trained to work with IS on the Internal Network Infrastructure where I worked with our Sr Network Architect to learn work with technologies such as DMVPN / Front Door VRFs / Architectural Best Practice Network design, also learning systems like Solarwinds / Cisco Prime Infrastructure / Cisco PfR and WAAS",
+                        "Job Duty 2": "Started full time NOC Network Engineer duties which was to be a general resources for the NOC Team to call on for Network Issues that were impacting NOC Systems (Backup Jobs, Email Spam Filtering, etc)",
+                        "Job Duty 3": "Worked on several projects / customer offerings including deploying SNMP Collectors and SIEM Security Appliances (Physical On-Prem and Cloud VMs), troubleshot initial issues, and created documentation for the process of implementation / troubleshooting for other techs to use"
                         }
                     ]
                 },
                 {
                     "Employer Name": "Marco Technologies LLC",
+                    "Job Title": "IT Remote Support Engineer",
                     "Employment Type": "Full-Time",
-                    "Job Role": "Network Escalation Engineer",
-                    "Employment Dates": "July 2020 - Present",
+                    "Employment Dates": "January 2017 - March 2019",
                     "Job Duties":
                     [
                         {
-                        "Job Duty1": "Something",
-                        "Job Duty2": "Something",
-                        "Job Duty3": "Something"
+                        "Job Duty1": "Troubleshooting Network Infrastructure issues from LAN Switching / Server connectivity / Routing issues, troubleshooting WAN connectivity issues and VPN Connectivity issues",
+                        "Job Duty2": "Troubleshooting Cloud offerings to the Marco Cloud / Data Center working heavily with Meraki Dashboard / VeloCloud Orchestrator (VMware SD-WAN) / ASAv VMs hosted in our Cloud ESXi Host Clusters supporting UCaaS and SaaS offerings at scale for several hundred customers with Cloud On-Call Rotation that is still part of my current job duties at Marco, occasional new VPN configuration to new branch sites for customer from our ASAv / Data Center environment",
+                        "Job Duty3": "Collaborating heavily as a team utilizing all different areas of expertise to get tickets to the right techs to resolve them, and helping teach each other new technologies and troubleshooting on the fly"
                         }
                     ]
                 },
@@ -80,15 +80,21 @@
                     [
                         {
                             "CCNP Enterprise": "Current - Oct 2022",
-                            "CCNA Security and Voice": "Retired",
                             "CMNA (Meraki)": "Current",
-                            "Cisco DevNet Associate": "In Progress"
+                            "CCNA Security / Voice": "Retired",
+                            "Cisco DevNet Associate": "In Progress",
+                            "AWS / Azure Cloud Technologies": "Actively learning, no certification path selected at this time"
                         }
                     ]
                 }
             ]
         },
-        {
+        {"About me": "In addition to having a very strong skillset from IT experience from different job roles, I enjoy learning new IT Technologies and blogging about them in depth on my website / blog for my own personal reference, in addition to a free resource of information for the wider IT community. I have a natural curiosity of newer Technologies, am currently pursuing the Cisco DevNet Associate Certification, while simultaneously learning Python Scripting in depth, and also currently working within AWS Cloud to work with and learn how the services integrate. I am a life long student of everything IT!"
+        },
+        {"Professional References": "Available upon request"
+        }
+    ]
+}
 
 
 
